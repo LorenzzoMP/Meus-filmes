@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    background-color: red;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__titulo {
+    font-family: 'Bruno Ace SC', cursive;
+    color: rgb(228, 224, 224);
+}
+
+.header__menu__link {
+    color: rgb(0, 0, 0);
+    font-family: 'Bruno Ace SC', cursive;
+    font-size: 20px;
+    padding: 16px;
+    text-decoration: none;
+    font-style: normal;
+}
+
+body {
+    background-image: url(../assets/fundo.jpg);
+    box-sizing: border-box;
+    background-size: 100%;
+}
+
+.imagens {
+    padding: 91px 0px 92px 28px;
+    box-sizing: content-box;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.75rem;
+}
+
+.footer {
+    background-color: rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    padding: 26px;
+    font-size: 10px;
+    font-family: 'Bruno Ace SC', cursive;
+}
+
+.link__footer {
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-family: 'Bruno Ace SC', cursive; 
+    text-decoration: none;
+    padding: 0px 0px 0px 8px;
+}
+
+.criticas {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.texto__criticas {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    padding: 80px;
+    font-family: 'Bruno Ace SC', cursive;
+}
+
+.criticas__strong {
+    color: rgb(38, 0, 255);
+    font-size: 90px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.img {
+    padding: 50px;
+    box-sizing: border-box;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.texto__diretores {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 77px;
+    padding: 10px;
+    font-family: 'Bruno Ace SC', cursive;
+}
+
+.diretores_strong {
+    color: rgb(38, 0, 255);
+    font-size: 29px;
+    display: flex;
+}
+
+.paragrafo {
+    color: white;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-family: 'Bruno Ace SC', cursive;
+    padding: 20px;
+}
